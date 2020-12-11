@@ -2,8 +2,13 @@
   font-family: "Raleway", sans-serif;
 }
 
-.why-keto-img {
+.benefits-img {
   max-width: 120px;
+  max-height: 120px;
+}
+
+.dark-background {
+  background: #272827;
 }
 
 /*# sourceMappingURL=style.css.map */
