@@ -21,4 +21,23 @@
   width: 85%;
 }
 
+.footnote {
+  color: grey;
+  font-size: smaller;
+}
+
+.per-day {
+  max-width: 28px;
+  font-size: smaller;
+}
+
+.pie-chart {
+  max-width: 75%;
+}
+
+.dot {
+  height: 24px;
+  width: 45px;
+}
+
 /*# sourceMappingURL=style.css.map */
