@@ -1,5 +1,11 @@
 * {
+  margin: 0;
+  padding: 0;
   font-family: "Raleway", sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .benefits-img {
@@ -9,6 +15,10 @@
 
 .dark-background {
   background: #272827;
+}
+
+.form-select {
+  width: 85%;
 }
 
 /*# sourceMappingURL=style.css.map */

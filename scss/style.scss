@@ -1,7 +1,13 @@
 $base-color-background: #272827;
 
 * {
+  margin: 0;
+  padding: 0;
   font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .benefits-img {
@@ -11,4 +17,8 @@ $base-color-background: #272827;
 
 .dark-background {
   background: $base-color-background;
+}
+
+.form-select {
+  width: 85%;
 }
