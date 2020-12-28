@@ -22,7 +22,7 @@
 }
 
 .footnote {
-  color: grey;
+  color: #a8a9a8;
   font-size: smaller;
 }
 
@@ -37,7 +37,27 @@
 
 .dot {
   height: 24px;
-  width: 45px;
+  width: 24px;
+}
+
+.small-dog-food {
+  margin-right: -32px;
+  margin-top: 17px;
+  max-width: 128px;
+  max-height: 180px;
+}
+
+.join-text {
+  color: #a8a9a8;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.fine-print {
+  color: #a8a9a8;
 }
 
 /*# sourceMappingURL=style.css.map */
