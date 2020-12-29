@@ -38,10 +38,13 @@
   padding: 0;
 }
 
-.ketona-club-block {
+#how-ketona-club-works h1 {
   border-top: 1px solid #6c757d;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding-top: 30px;
+}
+
+.how-it-works {
+  margin-left: 8%;
 }
 
 .md-hidden {
@@ -98,7 +101,19 @@
 
 @media (min-width: 769px) {
   #how-ketona-club-works {
+    border-top: 1px solid #6c757d;
     border-bottom: 1px solid #6c757d;
+  }
+
+  #how-ketona-club-works h1 {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .how-it-works {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
   }
 
   .ketona-club-benefits {
@@ -106,12 +121,17 @@
   }
 
   #try-ketona-risk-free {
-    border-left: 1px solid #6c757d !important;
+    border-left: 1px solid white !important;
   }
 
   .md-hidden {
     visibility: visible;
     position: static;
+  }
+
+  .ketona-club-benefits {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .img-strip-3 {
