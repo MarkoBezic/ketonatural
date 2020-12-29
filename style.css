@@ -4,13 +4,51 @@
   font-family: "Raleway", sans-serif;
 }
 
+.great-dane {
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  top: -513px;
+}
+
+.kibble {
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+  top: -370px;
+}
+
 .container-fluid {
   padding: 0;
 }
 
+.benefits-box {
+  background-color: white;
+  border-radius: 8px;
+  max-height: 111px;
+  max-width: 317px;
+  padding: 0;
+}
+
 .benefits-img {
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 100px;
+  max-height: 100px;
+  padding: 0;
+}
+
+.ketona-club-block {
+  max-width: 1000px;
+}
+
+#how-ketona-club-works {
+  border-top: 1px solid #6c757d;
+}
+
+.details {
+  position: absolute;
+  visibility: hidden;
 }
 
 .dark-background {
@@ -22,7 +60,7 @@
 }
 
 .footnote {
-  color: #a8a9a8;
+  color: #6c757d;
   font-size: smaller;
 }
 
@@ -48,7 +86,7 @@
 }
 
 .join-text {
-  color: #a8a9a8;
+  color: #6c757d;
 }
 
 .logo {
@@ -57,7 +95,47 @@
 }
 
 .fine-print {
-  color: #a8a9a8;
+  color: #6c757d;
+}
+
+@media (min-width: 769px) {
+  #how-ketona-club-works {
+    border-bottom: 1px solid #6c757d;
+  }
+
+  .ketona-club-benefits {
+    border-bottom: 1px solid #6c757d;
+  }
+
+  .details {
+    visibility: visible;
+    position: static;
+  }
+}
+@media (min-width: 993px) {
+  .headline {
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+  .benefits-strip {
+    margin-bottom: 70px;
+  }
+
+  .great-dane {
+    visibility: visible;
+  }
+
+  .kibble {
+    visibility: visible;
+    top: -470px;
+  }
+}
+@media (min-width: 1401px) {
+  .kibble {
+    top: -370px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
