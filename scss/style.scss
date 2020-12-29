@@ -12,7 +12,7 @@ $secondary-color: #6c757d;
   position: absolute;
   z-index: -1;
   left: 0px;
-  top: -513px;
+  top: -511px;
 }
 .kibble {
   visibility: hidden;
@@ -41,13 +41,14 @@ $secondary-color: #6c757d;
 }
 
 .ketona-club-block {
-  max-width: 1000px;
+  border-top: 1px solid $secondary-color;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #how-ketona-club-works {
-  border-top: 1px solid $secondary-color;
 }
-.details {
+.md-hidden {
   position: absolute;
   visibility: hidden;
 }
@@ -107,9 +108,25 @@ $secondary-color: #6c757d;
     border-bottom: 1px solid $secondary-color;
   }
 
-  .details {
+  #try-ketona-risk-free {
+    border-left: 1px solid $secondary-color !important;
+  }
+
+  .md-hidden {
     visibility: visible;
     position: static;
+  }
+  .img-strip-3 {
+    position: absolute;
+    visibility: hidden;
+  }
+  .img-strip-4 {
+    position: static;
+    visibility: visible;
+  }
+  .limit-carbs-container {
+    border-bottom: 1px solid $secondary-color;
+    padding-bottom: 30px;
   }
 }
 
@@ -128,6 +145,12 @@ $secondary-color: #6c757d;
   .kibble {
     visibility: visible;
     top: -470px;
+  }
+  .ketona-club-block {
+    max-width: 1000px;
+  }
+  .limit-carbs-benefits {
+    border-left: 1px solid $secondary-color;
   }
 }
 
