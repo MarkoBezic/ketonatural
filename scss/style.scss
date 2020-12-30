@@ -1,5 +1,6 @@
 $base-color-background: #272827;
 $secondary-color: #6c757d;
+$primary-border: 1px solid $secondary-color;
 
 * {
   margin: 0;
@@ -41,17 +42,12 @@ $secondary-color: #6c757d;
 }
 
 #how-ketona-club-works h1 {
-  border-top: 1px solid $secondary-color;
+  border-top: $primary-border;
   padding-top: 30px;
 }
 
 .how-it-works {
   margin-left: 8%;
-}
-
-.md-hidden {
-  position: absolute;
-  visibility: hidden;
 }
 
 .dark-background {
@@ -102,8 +98,8 @@ $secondary-color: #6c757d;
 }
 @media (min-width: 769px) {
   #how-ketona-club-works {
-    border-top: 1px solid $secondary-color;
-    border-bottom: 1px solid $secondary-color;
+    border-top: $primary-border;
+    border-bottom: $primary-border;
   }
 
   #how-ketona-club-works h1 {
@@ -124,10 +120,6 @@ $secondary-color: #6c757d;
     border-left: 1px solid white !important;
   }
 
-  .md-hidden {
-    visibility: visible;
-    position: static;
-  }
   .ketona-club-benefits {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -141,8 +133,48 @@ $secondary-color: #6c757d;
     visibility: visible;
   }
   .limit-carbs-container {
-    border-bottom: 1px solid $secondary-color;
+    border-bottom: $primary-border;
     padding-bottom: 30px;
+  }
+
+  /* Unparalleled Nutritional Content section */
+
+  .nutritional-content {
+    grid-area: header;
+  }
+  .dog-pic {
+    grid-area: sidebar;
+  }
+  .better-nutrition {
+    grid-area: middle;
+    border-bottom: $primary-border;
+    border-top: $primary-border;
+    h3 {
+      border: none !important;
+      margin-bottom: 0px !important;
+      margin-top: 0px !important;
+    }
+  }
+  .bad-good-stuff {
+    grid-area: bottom;
+    h3 {
+      border: none !important;
+      margin-bottom: 0px !important;
+    }
+  }
+
+  .nutritional-content-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'header header'
+      'sidebar middle'
+      'bottom bottom';
+
+    border-bottom: $primary-border;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
   }
 }
 
@@ -167,7 +199,41 @@ $secondary-color: #6c757d;
   }
 
   .limit-carbs-benefits {
-    border-left: 1px solid $secondary-color;
+    border-left: $primary-border;
+  }
+
+  /* Unparalleled Nutritional Content section */
+
+  .nutritional-content {
+    grid-area: header;
+  }
+  .dog-pic {
+    grid-area: sidebar;
+  }
+  .better-nutrition {
+    grid-area: middle;
+  }
+  .bad-good-stuff {
+    grid-area: bottom;
+  }
+  .good-stuff {
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  .bad-stuff {
+    padding-bottom: 30px;
+    margin-top: 30px;
+    border-right: $primary-border;
+  }
+
+  .nutritional-content-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'header header'
+      'sidebar middle'
+      'sidebar bottom';
   }
 }
 
