@@ -1,6 +1,8 @@
 $base-color-background: #272827;
 $secondary-color: #6c757d;
+$light-gray: #e2e3e7;
 $primary-border: 1px solid $secondary-color;
+$secondary-border: 1px solid $light-gray;
 
 * {
   margin: 0;
@@ -96,6 +98,48 @@ $primary-border: 1px solid $secondary-color;
 .fine-print {
   color: $secondary-color;
 }
+
+.review {
+  border: $secondary-border;
+}
+
+.reviews .prev-arrow,
+.reviews .next-arrow {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 37px;
+}
+.fa-angle-left:hover,
+.fa-angle-right:hover {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 37px;
+}
+
+.prev-arrow {
+  position: absolute;
+  top: 55px;
+  left: 7%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.next-arrow {
+  position: absolute;
+  top: 55px;
+  right: -83%;
+  z-index: 3;
+  cursor: pointer;
+}
+
+@media (min-width: 576px) {
+  .next-arrow {
+    position: absolute;
+    top: 55px;
+    right: -88%;
+    z-index: 3;
+    cursor: pointer;
+  }
+}
+
 @media (min-width: 769px) {
   #how-ketona-club-works {
     border-top: $primary-border;
@@ -175,6 +219,10 @@ $primary-border: 1px solid $secondary-color;
     border-bottom: $primary-border;
     margin-bottom: 20px;
     padding-bottom: 40px;
+  }
+
+  .trust-humans {
+    border: none !important;
   }
 }
 

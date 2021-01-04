@@ -20,6 +20,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <script
       src="https://kit.fontawesome.com/0f29f05f79.js"
       crossorigin="anonymous"
@@ -95,10 +99,10 @@
         >
           Keto is a dog's natural diet
         </h1>
-        <p class="d-flex justify-content-center text-center ms-5 me-5">
+        <h4 class="d-flex justify-content-center text-center ms-5 me-5 pe-2 pb-4 ps-2">
           Your dog wasn't built to eat carbs. Feed her as nature inteded with
           Ketona, the world's first truly low-carbohydrate kibble.
-        </p>
+        </h4>
         <button
           type="button"
           class="btn btn-warning d-flex m-auto btn-lg ps-5 pe-5 pt-3 pb-3 mb-5 fs-6 join-button"
@@ -444,10 +448,10 @@
         </div>
       </div>
       <div>
-        <h1 class="row d-block text-center p-3">
+        <h1 class="row trust-humans d-block text-center p-3 pb-4 mt-3 me-5 ms-5 border-bottom">
           Dogs Trust Humans. Humans trust Ketona
         </h1>
-        <div class="row">
+        <div class="row p-3 me-5 ms-5">
           <div class="col">
             <img
               src="images/logo_amazon.f39f6cf8.png"
@@ -462,22 +466,52 @@
           </div>
         </div>
       </div>
-      <hr />
+     
       <div>
-        <div class="review p-3">
-          <img class="img-fluid" src="images/dog1review.png" />
-          <h5 class="pt-4 pb-2">
-            <strong>Helped Buddy With Allergies</strong>
-          </h5>
-          <h5>
-            "Buddy loves Ketonatural. He has bad <strong>allergies</strong>, but
-            we could never seem to find a dog food he he actually liked, until
-            we fed him Ketonatural."
-          </h5>
-          <p class="pt-3">-Beverly E, Lexington, KY</p>
+        <div class="row p-3 mb-4 reviews">
+          <div class="col review me-4 ms-4 p-0">
+            <img class="img-fluid" src="images/dog1review.png" />
+            <div class="m-4 p-2">
+              <h5 class="pt-4 pb-2">
+                <strong>Helped Buddy With Allergies</strong>
+              </h5>
+              <h5>
+                "Buddy loves Ketonatural. He has bad <strong>allergies</strong>, but
+                we could never seem to find a dog food he he actually liked, until
+                we fed him Ketonatural."
+              </h5>
+              <p class="pt-3 text-secondary">- Beverly E, Lexington, KY</p>
+            </div>
+          </div>
+          <div class="col review me-4 ms-4 p-0">
+            <img class="img-fluid" src="images/dog2review.png" />
+            <div class="m-4 p-2">
+              <h5 class="pt-4 pb-2">
+                <strong>Sascha & Kokonut Love Keto!</strong>
+              </h5>
+              <h5>
+                "My dogs love the taste, were able to quickly transition 
+                with no digestive upset, and in 2 months, Sascha has 
+                lost 2 pounds. I really couldn't be happier."
+              </h5>
+              <p class="pt-3 text-secondary">- Parent to Sascha and Kokonut</p>
+            </div>
+          </div>
+          <div class="col review me-4 ms-4 p-0">
+            <img class="img-fluid" src="images/dog3review.png" />
+            <div class="m-4 p-2">
+              <h5 class="pt-4 pb-2">
+                <strong>Helped Buddy With Allergies</strong>
+              </h5>
+              <h5>
+                "My diabetic girl's blood sugar is way down and the 
+                other girl's hot spots are completely gone. All four 
+                dogs' coats are back to the Ketona Shine."
+              </h5>
+              <p class="pt-3 text-secondary">- Proud parent of 4 healthy dogs</p>
+            </div>
+          </div>
         </div>
-        <div class="review"></div>
-        <div class="review"></div>
       </div>
       <hr />
       <div class="text-center p-3">
@@ -551,5 +585,8 @@
         </div>
       </div>
     </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
