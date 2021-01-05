@@ -49,6 +49,7 @@ $secondary-border: 1px solid $light-gray;
 }
 
 .how-it-works {
+  width: auto;
   margin-left: 8%;
 }
 
@@ -116,22 +117,24 @@ $secondary-border: 1px solid $light-gray;
 .fa-angle-right:hover {
   color: rgba(255, 255, 255, 0.9);
   font-size: 37px;
+  cursor: pointer;
 }
 
 .prev-arrow {
+  width: auto;
   position: absolute;
   top: 55px;
   left: 7%;
   z-index: 2;
-  cursor: pointer;
 }
 
 .next-arrow {
+  width: auto;
+  display: inline-block;
   position: absolute;
   top: 55px;
-  right: -83%;
+  right: 7%;
   z-index: 3;
-  cursor: pointer;
 }
 #slick-slide-control00 {
   display: none;
@@ -146,9 +149,10 @@ $secondary-border: 1px solid $light-gray;
 
 @media (min-width: 576px) {
   .next-arrow {
+    width: auto;
     position: absolute;
     top: 55px;
-    right: -88%;
+    right: 7%;
     z-index: 3;
     cursor: pointer;
   }
@@ -170,6 +174,7 @@ $secondary-border: 1px solid $light-gray;
     padding-right: 30px;
     margin: 0;
   }
+
   .ketona-club-benefits {
     border-bottom: 1px solid $secondary-color;
   }
