@@ -55,6 +55,10 @@
   width: 85%;
 }
 
+.charts-section {
+  max-width: 1150px;
+}
+
 .footnote {
   color: #6c757d;
   font-size: smaller;
