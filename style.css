@@ -126,6 +126,18 @@
   cursor: pointer;
 }
 
+#slick-slide-control00 {
+  display: none;
+}
+
+.footer-subsection {
+  max-width: 320px;
+}
+
+.social-cell {
+  max-width: 20px;
+}
+
 @media (min-width: 576px) {
   .next-arrow {
     position: absolute;
@@ -220,6 +232,10 @@
 
   .trust-humans {
     border: none !important;
+  }
+
+  .product-img {
+    border-top: 1px solid #6c757d;
   }
 }
 @media (min-width: 993px) {

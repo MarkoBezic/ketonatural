@@ -129,6 +129,16 @@ $secondary-border: 1px solid $light-gray;
   z-index: 3;
   cursor: pointer;
 }
+#slick-slide-control00 {
+  display: none;
+}
+
+.footer-subsection {
+  max-width: 320px;
+}
+.social-cell {
+  max-width: 20px;
+}
 
 @media (min-width: 576px) {
   .next-arrow {
@@ -223,6 +233,10 @@ $secondary-border: 1px solid $light-gray;
 
   .trust-humans {
     border: none !important;
+  }
+
+  .product-img {
+    border-top: $primary-border;
   }
 }
 
